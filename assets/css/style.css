@@ -7,7 +7,7 @@
   --third-font      : 'Playfair Display', sans-serif;
 
   /* Colors */
-  --primary     : #2796a7;
+  --primary     : #0471ff;
   --gold        : #FFB830;
   --dark        : #0b0c1b;
   --semi-dark   : #1a1b2e;
@@ -86,8 +86,8 @@ body.light-theme {
   box-shadow: 0 22px 20px -15px rgba(0, 106, 255, 0.5);
 }
 .btn-fill-primary:hover {
-  background-color: #820096;
-  border-color: #9902ac;
+  background-color: #660191;
+  border-color: #5c0493;
 }
 
 /* fill-warning */
