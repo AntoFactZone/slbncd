@@ -204,56 +204,64 @@
 		</div>
 	</div>
 
-	<!-- Footer -->
+    <!-- Footer -->
 	<footer class="py-5">
-	<div class="container-fluid container-custom">
-		<div class="row">
-			<div class="col-lg-9">
-				<div class="row">
-					<div class="col-lg-4">
-						<h4>Services</h4>
-						<ul>
-							<li><a href="ark">ARK</a></li>
-							<li><a href="csgo">CS:GO</a></li>
-							<li><a href="fivem">FiveM</a></li>
-							<li><a href="minecraft">Minecraft</a></li>
-							<li><a href="rust">RUST</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-4">
-						<h4>Support</h4>
-						<ul>
-							<li><a href="">Contact Us</a></li>
-							<li><a href="">Discord</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-4">
-						<h4>Company</h4>
-						<ul>
-							<li><a href="partners">Partners</a></li>
-							<li><a href="terms-of-service">Terms of Service</a></li>
-							<li><a href="privacy-policy">Privacy Policy</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<h3>
-					<img class="img-fluid" src="assets/images/logo.svg" alt="DinoNode Footer Logo">
-					Dino<span class="blue">Node</span>
-				</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit.</p>
-				<p class="copy">&copy; Copyright 2024 ReluxNode. All Rights Reserved</p>
-			</div>
-		</div>	
-	</div>
-</footer>
-	<!-- Jquery v3.6.1 -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Bootstrap v5.2.1 -->
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-    <!-- Custom JS -->
-	<script src="assets/js/custom.js"></script>
-</body>
-</html>
+        <div class="container-fluid container-custom">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="ark">ARK</a></li>
+                                <li><a href="csgo">CS:GO</a></li>
+                                <li><a href="fivem">FiveM</a></li>
+                                <li><a href="minecraft">Minecraft</a></li>
+                                <li><a href="rust">RUST</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Discord</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="partners">Our Team</a></li>
+                                <li><a href="partners">Partners</a></li>
+                                <li><a href="terms-of-service">Terms of Service</a></li>
+                                <li><a href="privacy-policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3>
+                        <img class="img-fluid" src="assets/images/logo.png" alt="DinoNode Footer Logo">
+                        <span class="wite">SKY BLUE </span> <span class="blue">NODE</span>
+                    </h3>
+                    <p></p>
+                    <p class="copy">&copy; Copyright 2024 Sky Blue Node. All Rights Reserved </p>
+                </div>
+            </div>	
+        </div>
+    </footer>
+        <!-- Jquery v3.6.1 -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap v5.2.1 -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- OWL Slider v2.3.4 -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script>
+            // Reviews //
+            jQuery("#servertypes").owlCarousel({autoplay:!0,rewind:!0,margin:20,mouseDrag:!0,nav:!1,dots:!1,lazyLoad:!0,responsive:{0:{items:1},576:{items:2},768:{items:2},1024:{items:3},1366:{items:4}}});
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        </script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+    </html>

@@ -42,6 +42,10 @@
 .yellow {
     color: var(--yellow);
 }
+.white {
+    color: var(--white);
+}
+
 
 body {
     background: var(--background);
