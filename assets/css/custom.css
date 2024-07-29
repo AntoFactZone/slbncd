@@ -373,10 +373,19 @@ body {
 }
 
 .map .india {
-    left: 65%;
-    top: 55%;
+    left: 68%;
+    top: 62%;
 }
 
+.map .sg {
+    left: 75%;
+    top: 75%;
+}
+
+.map .usa {
+    left: 34%;
+    top: 43%;
+}
 @media (max-width: 1400px) {
     .map .finland {
         left: 41%;
@@ -424,7 +433,7 @@ body {
         margin-bottom: 10px !important;
     }
 
-    .map .germany, .map .finland .map .india {
+    .map .germany, .map .finland .map .india .map .sg .map .usa {
         position: relative;
         left: 0;
         right: 0;
